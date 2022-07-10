@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-container {
+    margin: 10vh auto;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    height: 50vh;
+    justify-content: center;
+    transition: 2s all ease;
+    border: 1px solid white;
+}
+
+.flex-item {
+    background-color: cyan;
+    border: 1pt solid rgb(4, 4, 4);
+    width: 20%;
+    height: 100%;
+    transition: 0.2s all ease;
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
